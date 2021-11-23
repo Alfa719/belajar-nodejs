@@ -1,0 +1,16 @@
+{
+  "name": "belajar-3",
+  "version": "1.0.0",
+  "description": "Belajar NPM NodeJS",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alfa Code",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "validator": "^13.7.0"
+  }
+}
