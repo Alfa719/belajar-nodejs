@@ -27,12 +27,12 @@ rl.question("Masukan Nama Anda : ", (name) => {
         newData.push(data);
 
         // Rewrite data up-to-date
-        fs.writeFileSync(dirFile, JSON.stringify(newData));
+        fs.writeFileSync(dirFile, JSON.stringify(newData, null, 2));
         console.log('========== Register Berhasil! ==========');
         console.log(`Nama   : ${name}`);
         console.log(`No HP  : ${phoneNumber}`);
         console.log('Contact has added!');
         console.log('========================================');
-        fs.close();
+        rl.close();
     })
 });
